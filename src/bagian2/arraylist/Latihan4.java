@@ -1,13 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package bagian2.arraylist;
 
-/**
- *
- * @author Axioo Pongo
- */
+import java.util.ArrayList;
+
 public class Latihan4 {
-    
+    public static void main(String[] args) {
+        ArrayList<String> buah = new ArrayList<>();
+         buah.add("Apel");
+         buah.add("Mangga");
+         buah.add("Jeruk");
+         System.out.println("Awal : " + buah);  
+         buah.add(1, "Pisang"); // sisip di indeks 1
+         System.out.println("Sisip : " + buah);
+         buah.set(0, "Anggur"); // ganti indeks 0
+         System.out.println("Ganti : " + buah);
+         buah.remove("Jeruk"); // hapus berdasarkan nilai
+         System.out.println("Hapus : " + buah);
+         System.out.println("Ada Apel?: " + buah.contains("Apel"));
+         System.out.println("Jumlah : " + buah.size());
+ }
 }
