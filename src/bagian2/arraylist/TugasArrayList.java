@@ -20,7 +20,6 @@ public class TugasArrayList {
         daftarBelanja.add("Gula");
         
         // Menghapus item ke-2
-        // Ingat: Indeks dimulai dari 0. Jadi item ke-2 berada di indeks 1 (Beras).
         daftarBelanja.remove(1);
         
         // Tampilkan isi list

@@ -6,12 +6,13 @@ import java.util.ArrayList;
 // CLASS MODEL: BUKU (DENGAN TAHUN & STATUS)
 // ==========================================
 class Buku {
+
     private String judul;
     private String penulis;
     // Latihan 2: Menambahkan atribut tahunTerbit
-    private int tahunTerbit; 
+    private int tahunTerbit;
     // Atribut tambahan untuk mendukung fitur pengembalian/peminjaman
-    private boolean isDipinjam; 
+    private boolean isDipinjam;
 
     // Constructor yang sudah dilengkapi dengan tahunTerbit
     public Buku(String judul, String penulis, int tahunTerbit) {
@@ -53,11 +54,11 @@ class Buku {
     }
 }
 
-
 // ==========================================
 // CLASS PENGELOLA: PERPUSTAKAAN
 // ==========================================
 class Perpustakaan {
+
     private ArrayList<Buku> koleksiBuku;
 
     public Perpustakaan() {
@@ -123,6 +124,7 @@ class Perpustakaan {
 // CLASS UTAMA (MAIN) 
 // ==========================================
 public class TugasMultiClass {
+
     public static void main(String[] args) {
         // Membuat objek perpustakaan
         Perpustakaan perpus = new Perpustakaan();
@@ -140,7 +142,7 @@ public class TugasMultiClass {
         // UJI LATIHAN 1: Mengembalikan Buku
         // -------------------------------------------------------------
         perpus.kembalikanBuku("Bumi");
-        
+
         // Tampilkan semua buku lagi untuk melihat perubahan status buku "Bumi"
         perpus.tampilkanSemuaBuku();
 
@@ -148,7 +150,7 @@ public class TugasMultiClass {
         // UJI LATIHAN 3: Mencari Buku Berdasarkan Penulis
         // -------------------------------------------------------------
         perpus.cariPenulis("Tere Liye");
-        
+
         // Tes cari penulis yang tidak ada di list
         perpus.cariPenulis("Deddy Corbuzier");
     }
