@@ -11,7 +11,6 @@ public class MainTugas {
         kelaskuliah.tambahMahasiswa(new Mahasiswa("Tierrison", "2410010066", 90));
         kelaskuliah.tambahMahasiswa(new Mahasiswa("Yukatheo", "2410010065", 100));
         
-        
         // menampilkan rata-rata nilai dan jumlah mahasiswa yang lulus serta daftar matkul
         kelaskuliah.tampilkanSemua();
         
