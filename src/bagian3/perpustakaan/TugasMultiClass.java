@@ -119,7 +119,6 @@ class Perpustakaan {
     }
 }
 
-
 // ==========================================
 // CLASS UTAMA (MAIN) 
 // ==========================================
@@ -151,6 +150,6 @@ public class TugasMultiClass {
         perpus.cariPenulis("Tere Liye");
         
         // Tes cari penulis yang tidak ada di list
-        perpus.cariPenulis("Raditya Dika");
+        perpus.cariPenulis("Deddy Corbuzier");
     }
 }
