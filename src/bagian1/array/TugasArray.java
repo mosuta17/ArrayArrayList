@@ -7,7 +7,7 @@ public class TugasArray {
         // ==========================================
         System.out.println("=== LATIHAN 1: SUHU HARIAN ===");
         
-        // 1. Membuat array berisi 6 suhu harian (double)
+        // Membuat array berisi 6 suhu harian (double)
         double[] suhuHarian = {28.5, 31.2, 26.9, 34.0, 29.8, 30.5};
         
         // Mengasumsikan indeks pertama sebagai suhu tertinggi dan terendah awal
@@ -37,7 +37,7 @@ public class TugasArray {
         // ==========================================
         System.out.println("=== LATIHAN 2: NAMA HARI (> 5 HURUF) ===");
         
-        // 1. Membuat array String berisi 5 nama hari
+        // Membuat array String berisi 5 nama hari
         String[] namaHari = {"Senin", "Selasa", "Rabu", "Kamis", "Jumat"};
         
         // Memeriksa panjang huruf setiap hari menggunakan .length() milik String
@@ -54,7 +54,7 @@ public class TugasArray {
         // ==========================================
         System.out.println("=== LATIHAN 3: MENGHITUNG ANGKA GENAP ===");
         
-        // 1. Array angka yang diberikan
+        // Array angka yang diberikan
         int[] angka = {4, 8, 15, 16, 23, 42};
         
         // Variabel counter untuk menghitung jumlah angka genap
