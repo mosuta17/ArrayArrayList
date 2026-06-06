@@ -31,7 +31,7 @@ public class TugasArrayList {
         System.out.println(); // Baris baru untuk jarak
 
         
-        // //latihan 2 nilai terbesar di arraylist
+        // latihan 2 nilai terbesar di arraylist
         // ==========================================
         System.out.println("=== LATIHAN 2: NILAI TERBESAR ===");
         
@@ -59,7 +59,7 @@ public class TugasArrayList {
         System.out.println(); // Baris baru untuk jarak
 
         
-        // //latihan 3 filter nama awalan huruf A
+        // latihan 3 filter nama awalan huruf A
         // ==========================================
         System.out.println("=== LATIHAN 3: FILTER NAMA (AWALAN A) ===");
         
